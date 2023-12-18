@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        input{
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid black;
+
+        }
+        form{
+            width: 800px;
+            background-color: white;
+            padding: 30px;
+        }
+        .container{
+            background-color: skyblue;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-group div{
+            width: 45%;
+        }
+        .form-group{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        button{
+            padding: 10px 30px;
+            background-color: blueviolet;
+            color: white;
+            border: 1px solid black;
+            box-shadow: 7px 7px 10px black ;
+        }
+        h3{
+            font-size: 2.5rem;
+            color: violet;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h3>Form</h3>
+            <div class="form-group">
+                <div>
+                    <label for="">First Name</label>
+                    <input type="text" autofocus>
+
+                </div>
+                <div>
+                    <label for="">First Name</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">Mail</label>
+                    <input type="email" name="" id="">
+                </div>
+                <div>
+                    <label for="">Web site Name</label>
+                    <input type="text" name="" id="">
+                </div>
+               
+                    <label for="">Wrie your messsage</label>
+                    <input type="text" name="" id="">
+            </div>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
